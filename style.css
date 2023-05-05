@@ -1,0 +1,59 @@
+form {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+body {
+  background-image: url("5124556.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h1 {
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="number"],
+textarea {
+  width: 95%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 3px;
+  background-color: #fff;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+textarea {
+  height: 150px;
+}
+
+input[type="file"] {
+  margin-top: 10px;
+}
+
+input[type="submit"] {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+input[type="submit"]:hover {
+  background-color: #3e8e41;
+}
